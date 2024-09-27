@@ -110,7 +110,8 @@ body {
     right: 20px;
 }
 
-.modal__cancel path {
+.modal__cancel path,
+.modal__cancel rect{
     transition: var(--transition);
 }
 
