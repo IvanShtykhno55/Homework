@@ -1,10 +1,9 @@
 @import "font.css";
 @import "reset.css";
 @import "global.css";
-
 @import "header.css";
 @import "footer.css";
-@import "media.css";
+
 
 html {
     scroll-behavior: smooth;
