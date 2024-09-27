@@ -433,7 +433,20 @@ html {
     line-height: .9;
 }
 
-.gallery__prev,
+.gallery__prev{
+    cursor: pointer;
+    background: transparent;
+
+    border: 1.5px solid #e1d9e1;;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
 .gallery__next {
     cursor: pointer;
     background: transparent;
@@ -516,7 +529,20 @@ html {
     line-height: .9;
 }
 
-.testimonials__prev,
+.testimonials__prev{
+    cursor: pointer;
+    background: transparent;
+
+    border: 1.5px solid #e1d9e1;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
 .testimonials__next {
     cursor: pointer;
     background: transparent;
